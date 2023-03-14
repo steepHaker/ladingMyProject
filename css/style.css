@@ -1,0 +1,363 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,700;1,400;1,500&family=Rosario:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rosario:wght@700&display=swap');
+/*font-family: 'DM Sans', sans-serif;
+font-family: 'Rosario', sans-serif;*/
+
+:root {
+    /*====================font-famaly==================*/
+    --ff-dmsans: 'DM Sans', sans-serif;
+    --ff-Rosario: 'Rosario', sans-serif;
+
+
+
+    /*====================color==================*/
+    --color-primary: #245852;
+
+    --color-secondary: #01996D;
+}
+
+/*====================default style==================*/
+html,
+body {
+    padding-top: 0;
+    margin: 0;
+}
+
+
+.header_general {
+    width: 100%;
+    height: 17vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header {
+    width: 90%;
+    display: flex;
+    padding: 15px;
+    margin: 15px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__menu {
+    display: flex;
+    gap: 50px;
+    font-size: 20px;
+    list-style: none;
+}
+
+.header__menu li a {
+    text-decoration: none;
+    color: black;
+    font-family: var(--ff-dmsans);
+}
+
+.header__menu li a:hover {
+    color: blue;
+}
+
+.btn_sing_in,
+.btn_start_trial {
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    font-family: var(--ff-dmsans);
+}
+
+.btn_start_trial:hover {
+    color: blue;
+}
+
+.btn_sing_in:hover {
+    color: blue;
+}
+
+.btn_start_trial {
+    width: 182px;
+    height: 51px;
+    background-color: var(--color-secondary);
+    color: rgb(255, 255, 255);
+}
+
+.btn_sing_in {
+    width: 95px;
+    height: 51px;
+    background-color: white;
+    color: black;
+}
+
+/************************************************/
+
+.main__content_control {
+    background: url("../images/BG.png");
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.content__one {
+    width: 500px;
+    height: 200px;
+    padding: 6vh 10vw;
+}
+
+.content__one_title {
+    font-size: 65px;
+    color: #01996D;
+}
+
+.content__one_text {
+    font-size: 20px;
+    color: #484848;
+    width: 29vw;
+    height: 15vh;
+    margin: 12px;
+}
+
+/*****************************************************/
+.main__content_stress {
+    width: 100%;
+    height: auto;
+    margin-top: 100px;
+}
+
+.stress__content {
+    display: grid;
+    grid-template-columns: 48% 52%;
+    width: 90%;
+    height: 30vh;
+    margin: 0 auto;
+    font-family: var(--ff-Rosario);
+    padding: 10px;
+
+}
+
+
+.stress__content_title {
+    font-size: 24px;
+}
+
+.stress__content_title h1 {
+    font-size: 50px;
+    line-height: 50px;
+    margin: 5px;
+    color: var(--color-secondary);
+}
+
+.stress__content_text {
+    font-size: 20px;
+    margin-top: 40px;
+}
+
+/***********************************/
+
+.three-steps {
+    width: 90%;
+    height: 150vh;
+    margin: 0 auto;
+    display: grid;
+    padding-left: 15px;
+    grid-template-columns: 33.333333% 33.333333% 33.333333%;
+}
+
+.content__stress_personalize {
+    margin-top: -25vh;
+}
+
+.content__stress_help {
+    margin-top: 18vh;
+}
+
+.content__stress_alivio {
+    margin-top: -10vh;
+}
+
+.stress__number {
+    font-weight: 400;
+    font-size: 150px;
+    color: rgba(1, 153, 109, 0.2);
+    margin-bottom: -90px;
+}
+
+.stress__title {
+    margin-left: 15vh;
+    font-size: 30px;
+}
+
+.stress__text {
+    width: 350px;
+    font-size: 20px;
+
+}
+
+/**************************************/
+
+.main__content_video {
+    width: 100%;
+    height: 100vh;
+    margin-top: 22vh;
+    background-color: var(--color-primary);
+    display: flex;
+    align-items: center;
+}
+
+.content__video {
+    width: 90%;
+    display: flex;
+    color: rgb(255, 255, 255);
+    margin: 0vh auto;
+
+}
+
+.content__video_title {
+    font-size: 50px;
+
+}
+
+.content__video_text {
+    font-weight: 600;
+    font-size: 25px;
+    width: 550px;
+}
+
+
+.content__video_img img {
+    width: 90%;
+    height: auto;
+    float: right;
+
+}
+
+/******************************************************************/
+
+
+.content_twoo {
+    width: 100%;
+    height: 620px;
+    background-color: var(--color-primary)
+}
+
+.video img {
+    position: absolute;
+    padding-left: 50%;
+    padding-top: 9vw;
+    width: 600px;
+    height: 350px;
+}
+
+.content_twoo h1 {
+    position: absolute;
+    padding-top: 11vw;
+    padding-left: 11vw;
+    color: white;
+    font-size: 45px;
+}
+
+.h1_text {
+    position: absolute;
+    padding-top: 50vh;
+    padding-left: 11vw;
+    font-size: 20px;
+    color: white;
+}
+
+.h1_buttom {
+    position: absolute;
+    padding-top: 60vh;
+    font-size: 20px;
+    padding-left: 11vw;
+}
+
+.h1_buttom a {
+    padding-left: 20px;
+    padding-top: 20px;
+    color: white;
+    text-decoration: none;
+    width: 140px;
+    height: 40px;
+    background-color: #01996D;
+    color: rgb(255, 255, 255);
+    position: absolute;
+}
+
+/************************************************************/
+
+.main__diary {
+    width: 70%;
+    height: 120vh;
+    margin: 0 auto;
+    background-color: #ffffff;
+    display: flex;
+    padding: 0 15px;
+}
+
+.main__diary_img {
+    margin-top: 20vh;
+}
+
+.main__diary__img_1 img {
+    width: 90%;
+    height: auto;
+}
+
+.main__diary__img_2 img {
+    width: 50%;
+    height: auto;
+    position: relative;
+    bottom: 30vh;
+    left: -5vw;
+}
+
+.main__diary_content {
+    margin-top: 25vh;
+}
+
+.diary_content_subtitle {
+    font-size: 25px;
+    font-weight: 600;
+
+}
+
+.diary_content_title {
+    font-size: 40px;
+    font-weight: 700;
+    margin: 20px 0;
+}
+
+.diary_content_text {
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+/*********************************************/
+.footer {
+    width: 100%;
+    height: 70vh;
+    background-color: var(--color-primary);
+    margin-top: 10%;
+}
+
+.footer_menu {
+    position: relative;
+    margin: 10vw;
+    padding-top: 5vh;
+}
+
+.footer__menu_link {
+    list-style: none;
+}
+
+.footer_link {
+    margin-top: 50px;
+}
+
+.footer_link a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #ffffff
+}
